@@ -1,3 +1,5 @@
+code
+urxvtc
 firefox&
 xrdb -merge $HOME/.config/X11/.Xresources
 urxvtd -o -q -f

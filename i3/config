@@ -105,7 +105,7 @@ bindsym $mod+p focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $terms "1: terms"
 set $web "2: web"
-set $ws3 "3"
+set $ws3 "3: Code"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
@@ -141,6 +141,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 workspace_auto_back_and_forth yes
 
 assign [class="firefox" instance="Navigator"] $web
+assign [class="Code" instance="code"] $ws3
 
 focus_follows_mouse no
 

@@ -1,7 +1,5 @@
 alias ll='ls -lah'
-alias ga='git add'
-alias gc='git commit'
-alias gp='git push'
+alias ls='ls --color=auto'
 
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
@@ -13,10 +11,13 @@ alias query='pacman -Ss'
 alias facebook='firefox facebook.com&'
 alias youtube='firefox youtube.com&'
 alias whatsapp='firefox whatsapp.com&'
-alias code='code&'
 
 alias run='dotnet build; dotnet run'
 alias drun='dotnet run'
 alias new='dotnet new console'
 
 alias book='zathura ~/Books/mouseless.pdf&'
+
+alias add='git add *'
+alias commit='git commit -m '
+alias push='git push origin master'
