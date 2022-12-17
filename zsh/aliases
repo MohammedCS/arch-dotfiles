@@ -11,9 +11,10 @@ alias query='pacman -Ss'
 alias facebook='firefox facebook.com&'
 alias youtube='firefox youtube.com&'
 alias whatsapp='firefox whatsapp.com&'
+alias telegram='telegram-desktop&'
 
-alias run='dotnet build; dotnet run'
-alias drun='dotnet run'
+alias build='dotnet build'
+alias run='dotnet run'
 alias new='dotnet new console'
 
 alias book='zathura ~/Books/mouseless.pdf&'
