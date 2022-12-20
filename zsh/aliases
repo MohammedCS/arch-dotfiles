@@ -12,6 +12,7 @@ alias facebook='firefox facebook.com&'
 alias youtube='firefox youtube.com&'
 alias whatsapp='firefox whatsapp.com&'
 alias telegram='telegram-desktop&'
+alias github='firefox github.com&'
 
 alias build='dotnet build'
 alias run='dotnet run'
